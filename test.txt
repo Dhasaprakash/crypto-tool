@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+import "crypto-tool/crypto"
+import "crypto-tool/ioutil"
+
+func main() {
+	fmt.Println("Hello world !go")
+	crypto.Encrypt()
+	ioutil.ReadFile()
+}
